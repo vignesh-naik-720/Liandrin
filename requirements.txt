@@ -1,0 +1,30 @@
+# web framework + ASGI server
+fastapi
+uvicorn[standard]
+
+# HTTP clients (sync + async)
+requests
+httpx
+
+# LLM / Google GenAI
+google-generativeai
+
+# Search / snippets
+serpapi
+
+# News API client
+newsapi-python
+
+# Speech STT/TTS SDKs
+assemblyai
+murf
+
+# FastAPI extras
+python-multipart
+pydantic
+
+# env file support (local only)
+python-dotenv
+
+# optional: WebSocket client/server libs (if used)
+websockets

@@ -1,6 +1,7 @@
 # web framework + ASGI server
 fastapi
 uvicorn[standard]
+jinja2
 
 # HTTP clients (sync + async)
 requests

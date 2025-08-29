@@ -8,6 +8,8 @@ httpx
 
 # LLM / Google GenAI
 google-generativeai
+google.genai
+google
 
 # Search / snippets
 serpapi

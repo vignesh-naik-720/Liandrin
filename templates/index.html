@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Liandrin Assistant</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <div id="apiKeyModal" class="modal">
+    <div class="modal-content">
+      <h2>Enter API Keys</h2>
+      <input id="murfKey" placeholder="Murf API Key" type="password" />
+      <input id="assemblyKey" placeholder="AssemblyAI API Key" type="password" />
+      <input id="geminiKey" placeholder="Gemini API Key" type="password" />
+      <input id="newsKey" placeholder="News API Key" type="password" />
+      <input id="serpKey" placeholder="Serp API Key" type="password" />
+      <button id="saveKeysBtn">Save & Continue</button>
+    </div>
+  </div>
+
+  <div class="app">
+    <div class="bot-container">
+      <img src="/static/robot.png" alt="Assistant Bot" class="bot" />
+    </div>
+
+    <div class="content-row">
+      <div class="card">
+        <h2>Hi there!</h2>
+        <div class="status-container">
+          <span id="statusDot" class="status-dot"></span>
+          <p id="statusText">Idle</p>
+        </div>
+
+        <img src="/static/microphone.png" 
+             alt="Microphone" 
+             id="recordBtn" 
+             class="mic-img" />
+
+        <button id="cancelBtn" class="secondary-btn">Cancel</button>
+      </div>
+
+      <div class="transcript-card">
+        <h3>Prompt (Your Speech)</h3>
+        <div id="transcript" class="transcript-box">
+          <p class="placeholder">Your speech will appear here...</p>
+        </div>
+
+        <h3>AI Response</h3>
+        <div id="llmResponse" class="transcript-box">
+          <p class="placeholder">Assistant response will appear here...</p>
+        </div>
+
+        <audio id="responseAudio" style="display:none"></audio>
+      </div>
+    </div>
+  </div>
+
+  <script src="/static/script.js" defer></script>
+</body>
+</html>

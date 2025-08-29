@@ -1,1 +1,46 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+env/
+venv/
+.venv/
+ENV/
+
+# Environment variables
 .env
+.env.*
+*.secret
+secrets.json
+
+# Logs
+*.log
+*.pid
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Coverage / test
+.coverage
+.pytest_cache/
+htmlcov/
+.tox/
+.nox/
+.mypy_cache/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# IDE / Editor
+.vscode/
+.idea/
+
+# Windows batch / scripts (if only local use)
+*.bat
+

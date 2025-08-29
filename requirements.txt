@@ -10,6 +10,7 @@ httpx
 google-generativeai
 google.genai
 google
+google-search-results
 
 # Search / snippets
 serpapi

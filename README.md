@@ -1,17 +1,11 @@
-🎙️ Real-Time Conversational AI Assistant
+# Liandrin : Time-travelling Conversational AI Assistant
 
 This project is a real-time voice-based conversational AI assistant built with FastAPI, WebSockets, and modern AI services. It lets users speak with the assistant using their microphone, transcribes speech in real-time, generates AI-driven responses, and streams back natural-sounding audio responses.
-
 Think of it as a two-way voice conversation with an AI, powered by:
-
 AssemblyAI for real-time transcription (STT)
-
 Google Gemini for large language model (LLM) responses
-
 Murf for text-to-speech (TTS)
-
 News API + SerpAPI (optional integrations for context/data retrieval)
-
 The entire pipeline runs in real-time, handling audio streaming, AI response generation, and audio playback seamlessly.
 
 🚀 Features
@@ -28,24 +22,19 @@ The entire pipeline runs in real-time, handling audio streaming, AI response gen
 🏗️ Architecture
 
 Frontend (script.js + index.html)
-
 Captures microphone input via Web Audio API
-
 Streams PCM audio over WebSocket (/ws)
-
 Displays live transcriptions & AI responses
-
 Queues and plays back streamed audio chunks
-
 Backend (FastAPI - main.py)
 
-/set_keys → Save API keys to .env file
+```/set_keys``` → Save API keys to .env file
 
-/agent/chat → STT → LLM → TTS pipeline for one-shot requests
+```/agent/chat``` → STT → LLM → TTS pipeline for one-shot requests
 
-/ws → Real-time bi-directional streaming (STT + LLM + TTS)
+```/ws``` → Real-time bi-directional streaming (STT + LLM + TTS)
 
-/tts & /voices → Direct TTS endpoints
+```/tts```& ```/voices``` → Direct TTS endpoints
 
 Uses AssemblyAI StreamingClient for live transcription
 

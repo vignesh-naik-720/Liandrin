@@ -116,6 +116,9 @@ The AI assistant will generate a response and speak back.
 
 Continue the conversation naturally.
 
+## Live Demo:
+Link: https://liandrin.onrender.com/
+
 ## 🛡️ Security Notes
 
 API keys are saved in .env and never exposed to frontend after initial input.

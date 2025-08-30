@@ -10,7 +10,7 @@ The entire pipeline runs in real-time, handling audio streaming, AI response gen
 
 🚀 Features
 
-✅ Web-based Interface – Works directly in the browser with no installations required.
+✅ Web-based Interface – Works directly in the browser with no installations required.</br>
 ✅ API Key Management – Securely set and store API keys from the UI.
 ✅ Real-Time Speech Recognition – Streams audio to AssemblyAI for transcription.
 ✅ Conversational AI – Sends transcribed text to a Gemini LLM for natural language responses.

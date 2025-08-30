@@ -8,18 +8,18 @@ Murf for text-to-speech (TTS)
 News API + SerpAPI (optional integrations for context/data retrieval)
 The entire pipeline runs in real-time, handling audio streaming, AI response generation, and audio playback seamlessly.
 
-🚀 Features
+## 🚀 Features
 
 ✅ Web-based Interface – Works directly in the browser with no installations required.</br>
-✅ API Key Management – Securely set and store API keys from the UI.
-✅ Real-Time Speech Recognition – Streams audio to AssemblyAI for transcription.
-✅ Conversational AI – Sends transcribed text to a Gemini LLM for natural language responses.
-✅ Text-to-Speech Streaming – Uses Murf to generate realistic AI voice responses.
-✅ WebSocket-based Streaming – Full-duplex communication between client and server.
-✅ Fallback Handling – Provides pre-recorded fallback audio if APIs are unavailable.
-✅ Chat History – Keeps track of past messages for context-aware conversations.
+✅ API Key Management – Securely set and store API keys from the UI.</br>
+✅ Real-Time Speech Recognition – Streams audio to AssemblyAI for transcription.</br>
+✅ Conversational AI – Sends transcribed text to a Gemini LLM for natural language responses.</br>
+✅ Text-to-Speech Streaming – Uses Murf to generate realistic AI voice responses.</br>
+✅ WebSocket-based Streaming – Full-duplex communication between client and server.</br>
+✅ Fallback Handling – Provides pre-recorded fallback audio if APIs are unavailable.</br>
+✅ Chat History – Keeps track of past messages for context-aware conversations.</br>
 
-🏗️ Architecture
+## 🏗️ Architecture
 
 Frontend (script.js + index.html)
 Captures microphone input via Web Audio API
